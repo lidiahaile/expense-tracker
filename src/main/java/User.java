@@ -1,5 +1,4 @@
 import jakarta.persistence.*;
-
 import java.util.List;
 
 @Entity
@@ -37,13 +36,7 @@ public class User {
 
     private String password;
 
-    public List<Expense> getExpenses() {
-        return expenses;
-    }
 
-    public void setExpenses(List<Expense> expenses) {
-        this.expenses = expenses;
-    }
 
     private List<Expense> expenses;
 }
